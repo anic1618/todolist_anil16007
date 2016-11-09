@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <EditText android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_title_hint"
+        />
+
+    <TextView
+        android:text="@string/detail_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textPersonName"
+        android:text="detail"
+        android:ems="10"
+        android:id="@+id/detail_text" />
+
+    <CheckBox
+        android:text="done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxDone"
+        android:visibility="invisible" />
+
+</LinearLayout>
